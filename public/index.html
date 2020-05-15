@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover" />
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_1449567_no582ya9cv.css">
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <script>
+            if (!window.Promise) {
+                document.writeln(
+                    '<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' +
+                    '>' + '<' + '/' + 'script>');
+            }
+        </script>
+        <script>
+            ;(function(doc, win) {
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function() {
+                        var clientWidth = docEl.clientWidth
+                        if (!clientWidth) return
+                        if (clientWidth >= 750) {
+                            docEl.style.fontSize = '100px'
+                        } else {
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'
+                        }
+                    }
+                if (!doc.addEventListener) return
+                win.addEventListener(resizeEvt, recalc, false)
+                doc.addEventListener('DOMContentLoaded', recalc, false)
+            })(document, window)
+        </script>
+        <script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    </head>
+    <body>
+        <noscript>
+            <strong
+                >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly
+                without JavaScript enabled. Please enable it to continue.</strong
+            >
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+    </body>
+</html>
