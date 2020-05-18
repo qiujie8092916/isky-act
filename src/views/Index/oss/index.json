@@ -1,5 +1,33 @@
 {
     "resultCode": "0",
     "errMsg": null,
-    "resultData": {}
+    "resultData": {
+        "footer": "https://static.iskytrip.com/webConfig/55shopping/footer%402x.png",
+        "footerApp": "https://static.iskytrip.com/webConfig/55shopping/footer-app%402x.png",
+        "backgroundImage": "https://static.iskytrip.com/webConfig/55shopping/background-image%402x.png",
+        "contentItem": [
+            {
+                "id": 96,
+                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-1%402x.png"
+            },
+            {
+                "id": 95,
+                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-2%402x.png"
+            },
+            {
+                "id": 94,
+                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-3%402x.png"
+            },
+            {
+                "id": 93,
+                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-4%402x.png"
+            }
+        ],
+        "shareParams": {
+            "paramsReqList": [],
+            "sharePageType": "wxApp",
+            "sharePageCategory": "55shopping",
+            "sharePageImage": ""
+        }
+    }
 }
