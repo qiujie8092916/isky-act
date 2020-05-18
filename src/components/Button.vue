@@ -4,7 +4,7 @@
  * @Author jieq
  * @Date 2020-05-15 14:14:31
  * @LastEditors jieq
- * @LastEditTime 2020-05-15 15:13:20
+ * @LastEditTime 2020-05-18 20:55:58
 -->
 <template>
   <button class="btn" @click.stop="onPress"><slot></slot></button>

@@ -4,7 +4,7 @@
  * @Author jieq
  * @Date 2020-05-15 13:12:27
  * @LastEditors jieq
- * @LastEditTime 2020-05-18 19:25:35
+ * @LastEditTime 2020-05-18 20:57:00
 -->
 <template>
   <div class="index">
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-<!--    :style="{ height: !isWechat ? '2.41rem' : '3.54rem' }"-->
+    <!--    :style="{ height: !isWechat ? '2.41rem' : '3.54rem' }"-->
     <div class="footer rowcc">
       <img
         class="footer-image"
