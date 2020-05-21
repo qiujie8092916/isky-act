@@ -837,10 +837,10 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
-"@iskytrip/sdk@2.0.14":
-  version "2.0.14"
-  resolved "http://192.168.1.133:7001/@iskytrip/sdk/download/@iskytrip/sdk-2.0.14.tgz#1e63f47d73176cde0952c61deb4cdbdaf8b0b248"
-  integrity sha1-HmP0fXMXbN4JUsYd60zb2viwskg=
+"@iskytrip/sdk@2.0.15":
+  version "2.0.15"
+  resolved "http://192.168.1.133:7001/@iskytrip/sdk/download/@iskytrip/sdk-2.0.15.tgz#0410ce12f5fbcc55733e291f27f0b29370f88cbb"
+  integrity sha1-BBDOEvX7zFVzPikfJ/Cyk3D4jLs=
   dependencies:
     axios "0.19.1"
     dsbridge "^3.1.3"
