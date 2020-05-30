@@ -8,12 +8,12 @@
 --> 
 ```
 {
-    // footer拼接图
+    // footer图
     footer[String]: "",
-    // app的footer拼接图
-    footerApp[String]: "",
     // 背景大图
     backgroundImage[String]: "",
+    // 标题图
+    title[String]: "",
     // 跳转详情
     contentItem[Array<Object>]: [
         {

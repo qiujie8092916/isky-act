@@ -2,31 +2,39 @@
     "resultCode": "0",
     "errMsg": null,
     "resultData": {
-        "footer": "https://static.iskytrip.com/webConfig/55shopping/footer%402x.png",
-        "footerApp": "https://static.iskytrip.com/webConfig/55shopping/footer-app%402x.png",
-        "backgroundImage": "https://static.iskytrip.com/webConfig/55shopping/background-image%402x.png",
+        "footer": "https://static.iskytrip.com/webConfig/61childrensday/footer%402x.png",
+        "backgroundImage": "https://static.iskytrip.com/webConfig/61childrensday/background-image%402x.png",
+        "title": "https://static.iskytrip.com/webConfig/61childrensday/title%402x.png",
         "contentItem": [
             {
-                "id": 96,
-                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-1%402x.png"
+                "id": 108,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-1%402x.png"
             },
             {
-                "id": 95,
-                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-2%402x.png"
+                "id": 109,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-2%402x.png"
             },
             {
-                "id": 94,
-                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-3%402x.png"
+                "id": 110,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-3%402x.png"
             },
             {
-                "id": 22,
-                "image": "https://static.iskytrip.com/webConfig/55shopping/content-item-4%402x.png"
+                "id": 119,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-4%402x.png"
+            },
+            {
+                "id": 111,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-5%402x.png"
+            },
+            {
+                "id": 120,
+                "image": "https://static.iskytrip.com/webConfig/61childrensday/content-item-6%402x.png"
             }
         ],
         "shareParams": {
             "paramsReqList": [],
             "sharePageType": "wxApp",
-            "sharePageCategory": "55shopping",
+            "sharePageCategory": "61childrensday",
             "sharePageImage": ""
         }
     }
