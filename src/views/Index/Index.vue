@@ -108,6 +108,8 @@ export default {
 
       const { contentItem } = resultData;
 
+      document.title = resultData.documentTit || "";
+
       this.dataSource.title = resultData.title || "";
       this.dataSource.footer = resultData.footer || "";
       this.dataSource.headerImage = contentItem.shift();

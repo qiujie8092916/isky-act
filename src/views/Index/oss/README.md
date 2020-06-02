@@ -8,6 +8,8 @@
 --> 
 ```
 {
+    // html标题
+    documentTit[String]: "",
     // footer图
     footer[String]: "",
     // 背景大图
